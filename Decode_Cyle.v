@@ -71,7 +71,7 @@ module decode_cycle(
 
     // Sign Extension
     Sign_Extend extension (
-                        .In(InstrD[31:0]),
+                        .Instruction(InstrD[31:0]),
                         .Imm_Ext(Imm_Ext_D),
                         .ImmSrc(ImmSrcD)
                         );
