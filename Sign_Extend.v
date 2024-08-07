@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 module Sign_Extend(
     input      [31:0] Instruction ,
-	 input             ImmSrc,
+    input      [1:0]  ImmSrc,
     output reg [31:0] ImmExt
     );
     
